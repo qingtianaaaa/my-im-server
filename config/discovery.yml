@@ -1,0 +1,13 @@
+enable: etcd
+
+etcd: 
+  rootDirectory: myim
+  address: [ localhost:12379 ]
+  username: 
+  password: 
+
+kubernets:
+  namespace: default
+
+rpcService: 
+  auth: auth-rpc-service

@@ -1,0 +1,12 @@
+rpc:
+  registerIP: "0.0.0.0"
+  listenIP: "0.0.0.0"
+  autoSetPorts: true
+  ports: [10110]
+
+prometheus:
+  enable: true
+  ports: [10111]
+
+tokenPolicy:
+  expire: 90
